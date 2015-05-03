@@ -124,3 +124,14 @@ sympy-plots-for-*.tex/
 # WinEdt
 *.bak
 *.sav
+
+# Vim
+*.swp
+
+# Backup
+*~
+*_backup
+
+# Jekyll
+_drafts
+_site
