@@ -15,7 +15,7 @@ owner:
   #avatar:         hmfaysal.jpg
   email:          wangjiezhe@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Que sera, sera. What ever will be, will be.
+  description:    Que sera, sera. Whatever will be, will be.
   # Social networking links used in footer. Update and remove as you like.
   twitter:        wangjiezhe
   facebook:       wangjiezhe
@@ -44,8 +44,8 @@ links:
     url: /categories
   - title: About
     url: /about
-  - title: Miscellany
-    url:  /miscellany
+  - title: Miscellanies
+    url:  /miscellanies
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai

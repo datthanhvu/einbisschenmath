@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink:/miscellany/index.html
+permalink: /miscellanies/index.html
 title: Que Sera Sera
 tags: [verse]
 imagefeature: heart-love.jpg
