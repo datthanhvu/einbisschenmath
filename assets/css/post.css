@@ -537,6 +537,13 @@ code {
   font-size: 0.9375rem;
   line-height: 1.2; }
 
+code.has-jax {
+  font: inherit;
+  font-size: 100%;
+  background: inherit;
+  border: inherit;
+  color: #515151; }
+
 iframe {
   border: 0; }
 
