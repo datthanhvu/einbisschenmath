@@ -46,30 +46,30 @@
 
 {% if page.mathjax %}
 <!--Load Mathjax-->
-<!-- <script  type="text/x-mathjax-config">
+<script type="text/x-mathjax-config">
 MathJax.Hub.Config({
-    config: ["MMLorHTML.js"],
-    extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-    jax: ["input/TeX"],
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-        processEscapes: false
-    },
-    TeX: {
-        TagSide: "right",
-        TagIndent: ".8em",
-        MultLineWidth: "85%",
-        equationNumbers: {
-           autoNumber: "AMS",
-        },
-        unicode: {
-           fonts: "STIXGeneral,'Arial Unicode MS'" 
-        }
-    },
-    showProcessingMessages: false
-});
-</script> -->
+	tex2jax: {
+		inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+		displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+		balanceBraces: true,
+		processEscapes: true,
+		processRefs: true,
+		processEnvironments: true,
+	},
+	Tex: {
+		TagSide: "right",
+		TagIndent: ".8em",
+		MultLineWidth: "85%",
+		equationNumbers: {
+			autoNumber: "AMS",
+			Macros: {
+				RR: '{\\bf R}',
+				bold: ['\\bf #1', 1],
+			},
+		}
+	},
+})
+</script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
