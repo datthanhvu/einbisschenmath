@@ -3,30 +3,36 @@ description:      "Ein Bißchen Math"
 logo:             logo.png
 disqus_shortname: wangjiezhe
 share:            true
-dropcap:			true
+search:           true
+readtime:         true
+dropcap:          true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  /einbisschenmath
+url:              /einbisschenmath
 
 # Owner/author information
 owner:
-  name:           Wang Jiezhe
-  avatar:         camel.jpg
-  email:          wangjiezhe@yandex.com
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Que sera, sera. Whatever will be, will be.
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        wangjiezhe
-  facebook:       wangjiezhe
-  github:         wangjiezhe
-  #instagram:      hmfaysal
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/100432668086516233389
-  url:            http://wangjiezhe.github.io
+    name:           Wang Jiezhe
+    avatar:         camel.jpg
+    email:          wangjiezhe@yandex.com
+    # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+    description:    Que sera, sera. Whatever will be, will be.
+    # Social networking links used in footer. Update and remove as you like.
+    twitter:        wangjiezhe
+    facebook:       wangjiezhe
+    github:         wangjiezhe
+    #instagram:      hmfaysal
+    linkedin:
+    tumblr:
+    flickr:
+    stackexchange:
+    # For Google Authorship https://plus.google.com/authorship
+    google_plus:    https://plus.google.com/u/0/100432668086516233389
+    url:            http://wangjiezhe.github.io
 
 # Analytics and webmaster tools stuff goes here
-  google_analytics:   UA-48537410-1
+gogle_analytics:   UA-48537410-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -34,18 +40,18 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
-    external: false
-    icon: home
-  - title: Featured Posts
-    url: /featured
-  - title: Categories
-    url: /categories
-  - title: About
-    url: /about
-  - title: Miscellanies
-    url:  /miscellanies
+    - title: Home
+      url: /
+      external: false
+      icon: home
+    - title: Featured Posts
+      url: /featured
+    - title: Categories
+      url: /categories
+    - title: About
+      url: /about
+    - title: Miscellanies
+      url:  /miscellanies
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
