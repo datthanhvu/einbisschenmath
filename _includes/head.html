@@ -48,6 +48,9 @@
 <!--Load Mathjax-->
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
+    config: ["TeX-AMS-MML_HTMLorMML.js", "MMLorHTML.js"],
+	extensions: ["tex2jax.js", ],
+	jax: ["input/Tex", "output/HTML-CSS"],
     tex2jax: {
         inlineMath: [ ['$','$'], ['\\(','\\)'] ],
         displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
@@ -66,8 +69,17 @@ MathJax.Hub.Config({
                 RR: '{\\bf R}',
                 bold: ['\\bf #1', 1],
             },
-        }
+        },
+		extensions: ["AMSmath.js", "AMSsymbols.js", "AMScd.js", "autobold.js", "color.js", "noUndefined.js"],
+		unicode: {
+            fonts: "STIXGeneral, 'Arial Unicode MS'",
+		},
     },
+	"HTML-CSS":{
+	    availableFonts: ["TeX"],
+		linebreaks: { automatic: true },
+		extensions: ["handle-floats.js"]
+	},
 })
 </script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
