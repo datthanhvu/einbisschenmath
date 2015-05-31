@@ -47,10 +47,9 @@
 {% if page.mathjax %}
 <!--Load Mathjax-->
 <script type="text/x-mathjax-config">
-MathJax.Ajax.config.path["Contrib"] = "//cdn.mathjax.org/mathjax/contrib";
 MathJax.Hub.Config({
     config: ["TeX-AMS-MML_HTMLorMML.js", "MMLorHTML.js"],
-    extensions: ["tex2jax.js", "[Contrib]/xyjax.js"],
+    extensions: ["tex2jax.js"],
     jax: ["input/Tex", "output/HTML-CSS"],
     tex2jax: {
         inlineMath: [ ['$','$'], ['\\(','\\)'] ],
@@ -76,7 +75,7 @@ MathJax.Hub.Config({
             useLabelIds: false
         },
         extensions: ["AMSmath.js", "AMSsymbols.js", "AMScd.js", "autobold.js", "color.js", "noUndefined.js",
-                     "[Contrib]/xyjax/xypic.js"],
+                     "assets/js/XyJax/extensions/TeX/xypic.js"],
         unicode: {
             fonts: "STIXGeneral, 'Arial Unicode MS'"
         }
