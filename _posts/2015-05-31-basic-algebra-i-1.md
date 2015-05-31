@@ -47,7 +47,7 @@ In the first part, we introduced the power set of a set, the Cartesian product s
 
 We view the *relation* on $S$ as a subset of the product set $S \times S$. The *equivalence relation* is a relation with reflexive, symmetic and transitive properties. The concept of an equivalence relation is equivalent to that of a *partition*, $\pi(S)$, of a set, which is the just the *quotient set*, $S/E$. The we have a *natural map* of the set to the quotient set:
 \begin{align}
-\nu : & S \to S/E \\\
+\nu \, : \, & S \to S/E \\\
 & a \mapsto \bar{a}
 \end{align}
 
@@ -66,12 +66,12 @@ S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
-\bar{\alpha} : & \bar{S} = S/E \to T \\\
+\bar{\alpha} \, : \, & \bar{S} = S/E \to T \\\
 & \bar{a} \equiv \bar{a}\_E \mapsto \alpha(a)
 \end{align}
 In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E\_{\alpha}$.
 
-### cardinality
+### Cardinality
 
 **The "Pigeonhole" Principle**
 
@@ -79,7 +79,7 @@ If there are more letters than pigonholes, then some pigeonhole must contains mo
 
 **The Schröder-Bernstein Theorem**
 
-if we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\abs{S} = \abs{T}$.
+if we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\lvert S \rvert = \lvert T \rvert$.
 
 ## The Natural Number
 
@@ -104,7 +104,7 @@ Note that the existence of $f$ must use *all* of the Peano's axioms.
 
 A fundamental concept of the system $\mathbb{N}$ is the relation of *order*. We have the *well-ordering property* of $\mathbb{N}$:
 
-In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number, \\\
+In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number,
 i.e. an $l \in S$ s.t. $l \le s$ for $s \in S$
 
 The well-ordering property is the basis of the *second principle of induction*.
