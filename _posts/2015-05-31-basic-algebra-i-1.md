@@ -47,7 +47,7 @@ In the first part, we introduced the power set of a set, the Cartesian product s
 
 We view the *relation* on $S$ as a subset of the product set $S \times S$. The *equivalence relation* is a relation with reflexive, symmetic and transitive properties. The concept of an equivalence relation is equivalent to that of a *partition*, $\pi(S)$, of a set, which is the just the *quotient set*, $S/E$. The we have a *natural map* of the set to the quotient set:
 \begin{align}
-\nu \, : \, & S \to S/E \\\
+\nu : \, & S \to S/E \\\
 & a \mapsto \bar{a}
 \end{align}
 
@@ -66,7 +66,7 @@ S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
-\bar{\alpha} \, : \, & \bar{S} = S/E \to T \\\
+\bar{\alpha} : \, & \bar{S} = S/E \to T \\\
 & \bar{a} \equiv \bar{a}\_E \mapsto \alpha(a)
 \end{align}
 In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E\_{\alpha}$.
@@ -85,9 +85,9 @@ if we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\lvert S \rve
 
 We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}$, designated as $0$, a *successor map* $a \to a^{+}$ of $\mathbb{N}$, and **Peano's Axioms**:
 
-1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map)
+1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map).
 2. The successor map is injective.
-3. (*Axiom of induction*) Any subset of $\mathbb{N}$ which contains $0$ and contains the successor of every element in the given subset coincides with $\mathbb{N}$
+3. (*Axiom of induction*) Any subset of $\mathbb{N}$ which contains $0$ and contains the successor of every element in the given subset coincides with $\mathbb{N}$.
 
 Axiom 3 is the basis of the *first principle of induction*. Then we have *proofs by induction*.
 
