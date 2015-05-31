@@ -76,6 +76,7 @@ Description: Que sera, sera. Whatever will be, will be.
             </header>
 {% endif %}
         {% if page.imagefeature %}<article class="notepad-post-content post">{% else %}<article class="notepad-post-content post tag-simple">{% endif %}
+            {% if page.tableofcontents %}{% include tableofcontents.html %}{% endif %}
             <div>{{ content }}
             </div>
         </article>
