@@ -57,12 +57,14 @@ a E\_{\alpha} b \iff \alpha(a) = \alpha(b) \\\
 \bar{\alpha}(a) = \alpha(a)
 \end{gather}
 The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the commutativity of the diagram
+\\[
 \begin{xy}
 \xymatrix {
 S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\\
 S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
+\\]
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
