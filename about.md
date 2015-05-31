@@ -1,10 +1,8 @@
 ---
 layout: page
 permalink: /about/index.html
-title: Hossain Mohd Faysal
-tags: [Hossain, Mohd, Faysal, hmfaysal]
-imagefeature: fourseasons.jpg
-chart: true
+title: About Me
+tags: [about]
 ---
 {% assign total_words = 0 %}
 {% assign total_readtime = 0 %}
