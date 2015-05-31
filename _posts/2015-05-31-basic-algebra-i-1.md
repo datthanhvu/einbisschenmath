@@ -47,26 +47,26 @@ In the first part, we introduced the power set of a set, the Cartesian product s
 
 We view the *relation* on $S$ as a subset of the product set $S \times S$. The *equivalence relation* is a relation with reflexive, symmetic and transitive properties. The concept of an equivalence relation is equivalent to that of a *partition*, $\pi(S)$, of a set, which is the just the *quotient set*, $S/E$. The we have a *natural map* of the set to the quotient set:
 \begin{align}
-\nu : & S \to S/E
+\nu : & S \to S/E \\\
 & a \mapsto \bar{a}
 \end{align}
 
 The another important connection between maps and equivalent relations is that we can *induce* a map $\bar{\alpha}$ of $S/E\_{\alpha}$ for a map $\alpha$ of $S$, where
 \begin{gather}
-a E\_{\alpha} b \iff \alpha(a) = \alpha(b)
+a E\_{\alpha} b \iff \alpha(a) = \alpha(b) \\\
 \bar{\alpha}(a) = \alpha(a)
 \end{gather}
 The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the commutativity of the diagram
 \begin{xy}
 \xymatrix {
-S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\
+S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\\
 S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
-\bar{\alpha} : & \bar{S} = S/E \to T \\
+\bar{\alpha} : & \bar{S} = S/E \to T \\\
 & \bar{a} \equiv \bar{a}\_E \mapsto \alpha(a)
 \end{align}
 In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E\_{\alpha}$.
@@ -75,15 +75,15 @@ In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha
 
 **The "Pigeonhole" Principle**
 
-	If there are more letters than pigonholes, then some pigeonhole must contains more than one letter.
+If there are more letters than pigonholes, then some pigeonhole must contains more than one letter.
 
 **The Schröder-Bernstein Theorem**
 
-	if we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\abs{S} = \abs{T}$.
+if we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\abs{S} = \abs{T}$.
 
 ## The Natural Number
 
-We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}$, designated as $0$, a *successor map* $a \to a^{+}$ of $\mathbb{N}}$, and **Peano's Axioms**:
+We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}$, designated as $0$, a *successor map* $a \to a^{+}$ of $\mathbb{N}$, and **Peano's Axioms**:
 
 1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map)
 2. The successor map is injective.
@@ -104,7 +104,7 @@ Note that the existence of $f$ must use *all* of the Peano's axioms.
 
 A fundamental concept of the system $\mathbb{N}$ is the relation of *order*. We have the *well-ordering property* of $\mathbb{N}$:
 
-In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number, \\
+In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number, \\\
 i.e. an $l \in S$ s.t. $l \le s$ for $s \in S$
 
 The well-ordering property is the basis of the *second principle of induction*.
@@ -123,5 +123,5 @@ If $a$ and $b$ are integers and $b \ne 0$ then there exist integers $q$ and $r$ 
 
 
 
-[^1]: This is a special case of the *arithemetic of p.i.d.*.
+[^1]: This is a special case of the *arithemetic of p.i.d.*
 *[p.i.d.]: Principle Ideal Domain
