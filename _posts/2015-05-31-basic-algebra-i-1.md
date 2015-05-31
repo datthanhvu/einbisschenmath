@@ -51,25 +51,25 @@ We view the *relation* on $S$ as a subset of the product set $S \times S$. The *
 & a \mapsto \bar{a}
 \end{align}
 
-The another important connection between maps and equivalent relations is that we can *induce* a map $\bar{\alpha}$ of $S/E_{\alpha}$ for a map $\alpha$ of $S$, where
+The another important connection between maps and equivalent relations is that we can *induce* a map $\bar{\alpha}$ of $S/E\_{\alpha}$ for a map $\alpha$ of $S$, where
 \begin{gather}
-a E_{\alpha} b \iff \alpha(a) = \alpha(b)
+a E\_{\alpha} b \iff \alpha(a) = \alpha(b)
 \bar{\alpha}(a) = \alpha(a)
 \end{gather}
 The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the commutativity of the diagram
 \begin{xy}
 \xymatrix {
-S \ar[r]^{\alpha} \ar[d]_{\nu} & T \\
-S/E_{\alpha} \ar[ur]^\bar{\alpha}
+S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\
+S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
-\bar{\alpha} : & \bar{S} = S/E \to T
-& \bar{a} \equiv \bar{a}_E \mapsto \alpha(a)
+\bar{\alpha} : & \bar{S} = S/E \to T \\
+& \bar{a} \equiv \bar{a}\_E \mapsto \alpha(a)
 \end{align}
-In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E_{\alpha}$.
+In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E\_{\alpha}$.
 
 ### cardinality
 
@@ -83,7 +83,7 @@ In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha
 
 ## The Natural Number
 
-We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}, designated as $0$, a *successor map* $a \to a^{+}$ of $ $\mathbb{N}}, and **Peano's Axioms**:
+We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}$, designated as $0$, a *successor map* $a \to a^{+}$ of $\mathbb{N}}$, and **Peano's Axioms**:
 
 1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map)
 2. The successor map is injective.
@@ -95,31 +95,31 @@ The another we shall encounter frequently is *definitions by induction*, which i
 
 **Recursion Theorem**:
 
-	Let $S$ be a set, $\phi$ a map of $S$ into itself, $a$ a element of $S$. Then there exist one and only one map $f$ from $\mathbb{N}$ to $S$ s.t.
-	
-	1. $f(0) = a$
-	2. $f(n^{+}) = \phi(f(n))$, $n \in \mathbb{N}$
+Let $S$ be a set, $\phi$ a map of $S$ into itself, $a$ a element of $S$. Then there exist one and only one map $f$ from $\mathbb{N}$ to $S$ s.t.
+
+1. $f(0) = a$
+2. $f(n^{+}) = \phi(f(n))$, $n \in \mathbb{N}$
 
 Note that the existence of $f$ must use *all* of the Peano's axioms.
 
 A fundamental concept of the system $\mathbb{N}$ is the relation of *order*. We have the *well-ordering property* of $\mathbb{N}$:
 
-	In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number,
-	i.e. an $l \in S$ s.t. $l \le s$ for $s \in S$
+In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number, \\
+i.e. an $l \in S$ s.t. $l \le s$ for $s \in S$
 
 The well-ordering property is the basis of the *second principle of induction*.
 
 ## Integers
 
-We can construct the number system $\mathbb{Z} from $\mathbb{N}$ using the method analogous to the standard one for constructing $\mathbb{Q}$ from $\mathbb{N}$.
+We can construct the number system $\mathbb{Z}$ from $\mathbb{N}$ using the method analogous to the standard one for constructing $\mathbb{Q}$ from $\mathbb{N}$.
 
 **The Fundamental Theorem of Arithmetic[^1]**
 
-	Any integer $\ne 0, \pm 1$ can be written as a product of primes. Apart from order and signs of the factors this factorization is unique.
+Any integer $\ne 0, \pm 1$ can be written as a product of primes. Apart from order and signs of the factors this factorization is unique.
 
 **The Division Algorithm in $\mathbb{Z}$**
 
-	If $a$ and $b$ are integers and $b \ne 0$ then there exist integers $q$ and $r$ s.t. $a = bq + r$.
+If $a$ and $b$ are integers and $b \ne 0$ then there exist integers $q$ and $r$ s.t. $a = bq + r$.
 
 
 
