@@ -70,29 +70,29 @@ MathJax.Hub.Config({
                 RR: '{\\mathbb R}',
 				NN: '{\\mathbb N}',
 				QQ: '{\\mathbb Q}'
-                bold: ['\\textbf #1', 1],
+                bold: ['\\textbf #1', 1]
             },
-			useLabelIds: false,
+			useLabelIds: false
         },
         extensions: ["AMSmath.js", "AMSsymbols.js", "AMScd.js", "autobold.js", "color.js", "noUndefined.js"],
         unicode: {
-            fonts: "STIXGeneral, 'Arial Unicode MS'",
-        },
+            fonts: "STIXGeneral, 'Arial Unicode MS'"
+        }
     },
     "HTML-CSS":{
         availableFonts: ["TeX"],
         linebreaks: { automatic: true },
         extensions: ["handle-floats.js"]
     },
-	SVG: {linebreaks: {automatic: true}},
+	SVG: {linebreaks: {automatic: true}}
 });
 </script>
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
 Mathjax.Hub.Config({
     MathJax.Ajax.config.path["Contrib"] = "//cdn.mathjax.org/mathjax/contrib";
     extensions:["[Contrib]/xyjax.js"]
 });
-</script>
+</script> -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Queue(function() {
         // Fix <code> tags after MathJax finishes running. This is a
