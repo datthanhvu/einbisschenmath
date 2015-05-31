@@ -51,25 +51,25 @@ We view the *relation* on $S$ as a subset of the product set $S \times S$. The *
 & a \mapsto \bar{a}
 \end{align}
 
-The another important connection between maps and equivalent relations is that we can *induce* a map $\bar{\alpha}$ of $S/E_\alpha$ for a map $\alpha$ of $S$, where
+The another important connection between maps and equivalent relations is that we can *induce* a map $\bar{\alpha}$ of $S/E_{\alpha}$ for a map $\alpha$ of $S$, where
 \begin{gather}
-a E_\alpha b \iff \alpha(a) = \alpha(b)
+a E_{\alpha} b \iff \alpha(a) = \alpha(b)
 \bar{\alpha}(a) = \alpha(a)
 \end{gather}
 The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the commutativity of the diagram
 \begin{xy}
 \xymatrix {
-S \ar[r]^\alpha \ar[d]_\nu & T \\
-S/E_\alpha \ar[ur]^\bar{\alpha}
+S \ar[r]^{\alpha} \ar[d]_{\nu} & T \\
+S/E_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
 
-We say that $\alphpa\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
+We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
 \bar{\alpha} : & \bar{S} = S/E \to T
 & \bar{a} \equiv \bar{a}_E \mapsto \alpha(a)
 \end{align}
-In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E_\alpha$.
+In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E_{\alpha}$.
 
 ### cardinality
 
@@ -85,7 +85,7 @@ In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha
 
 We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}, designated as $0$, a *successor map* $a \to a^{+}$ of $ $\mathbb{N}}, and **Peano's Axioms**:
 
-1. $0\ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map)
+1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map)
 2. The successor map is injective.
 3. (*Axiom of induction*) Any subset of $\mathbb{N}$ which contains $0$ and contains the successor of every element in the given subset coincides with $\mathbb{N}$
 
@@ -124,4 +124,4 @@ We can construct the number system $\mathbb{Z} from $\mathbb{N}$ using the metho
 
 
 [^1]: This is a special case of the *arithemetic of p.i.d.*.
-[p.i.d.]: Principle Ideal Domain
+*[p.i.d.]: Principle Ideal Domain
