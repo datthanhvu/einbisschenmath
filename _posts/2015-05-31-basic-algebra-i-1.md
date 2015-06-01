@@ -123,7 +123,7 @@ Any integer $\ne 0, \pm 1$ can be written as a product of primes. Apart from ord
 
 **The Division Algorithm in $\mathbb{Z}$**
 
-If $a$ and $b$ are integers and $b \ne 0$ then there exist integers $q$ and $r$ s.t. $a = bq + r$.
+	If $a$ and $b$ are integers and $b \ne 0$ then there exist integers $q$ and $r$ s.t. $a = bq + r$.
 
 
 
