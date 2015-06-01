@@ -39,8 +39,8 @@ This chapter has two important parts: set theory, natural numbers and intergers,
 \begin{xy}
 \xymatrix {
 U \ar@/_/[ddr]_y \ar@{.\>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
- \& X \times_Z Y \ar[d]^q \ar[r]_p \& X \ar[d]_f \\
- \& Y \ar[r]^g \& Z
+ & X \times_Z Y \ar[d]^q \ar[r]_p & X \ar[d]_f \\
+ & Y \ar[r]^g & Z
 }
 \end{xy}
 \\]
@@ -56,8 +56,8 @@ In the first part, we introduced the power set of a set, the Cartesian product s
 
 We view the *relation* on $S$ as a subset of the product set $S \times S$. The *equivalence relation* is a relation with reflexive, symmetic and transitive properties. The concept of an equivalence relation is equivalent to that of a *partition*, $\pi(S)$, of a set, which is the just the *quotient set*, $S/E$. The we have a *natural map* of the set to the quotient set:
 \begin{align}
-\nu : \, \& S \to S/E \\\
-\& a \mapsto \bar{a}
+\nu : \, & S \to S/E \\\
+& a \mapsto \bar{a}
 \end{align}
 
 The another important connection between maps and equivalent relations is that we can *induce* a map $\bar{\alpha}$ of $S/E\_{\alpha}$ for a map $\alpha$ of $S$, where
@@ -69,7 +69,7 @@ The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the co
 \\[
 \begin{xy}
 \xymatrix {
-S \ar[r]^{\alpha} \ar[d]\_{\nu} \& T \\\
+S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\\
 S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
@@ -77,8 +77,8 @@ S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
-\bar{\alpha} : \, \& \bar{S} = S/E \to T \\\
-\& \bar{a} \equiv \bar{a}\_E \mapsto \alpha(a)
+\bar{\alpha} : \, & \bar{S} = S/E \to T \\\
+& \bar{a} \equiv \bar{a}\_E \mapsto \alpha(a)
 \end{align}
 In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha$ is injective iff $E = E\_{\alpha}$.
 
