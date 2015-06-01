@@ -35,17 +35,6 @@ featured: false
 
 This chapter has two important parts: set theory, natural numbers and intergers, which are the basic ingredients of structures.
 
-<p>
-\[
-\begin{xy}
-\xymatrix {
-U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
- & X \times_Z Y \ar[d]^q \ar[r]_p & X \ar[d]_f \\
- & Y \ar[r]^g & Z
-}
-\end{xy}
-\]
-</p>
 
 # Main Content
 
@@ -68,14 +57,14 @@ a E\_{\alpha} b \iff \alpha(a) = \alpha(b) \\\
 \bar{\alpha}(a) = \alpha(a)
 \end{gather}
 The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the commutativity of the diagram
-\\[
+<p>\[
 \begin{xy}
 \xymatrix {
 S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\\
 S/E\_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
-\\]
+\]</p>
 
 We say that $\alpha\$ is *compatible* with $E$ if $a E b$ for $a$, $b$ is $S$ implies $\alpha(a) = \alpha(b)$. Then we can define
 \begin{align}
