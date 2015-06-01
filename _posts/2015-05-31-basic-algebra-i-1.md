@@ -60,8 +60,8 @@ The map $\bar{\alpha}$ is injective and $\nu$ is surjective. Then we have the co
 <p>\[
 \begin{xy}
 \xymatrix {
-S \ar[r]^{\alpha} \ar[d]\_{\nu} & T \\
-S/E\_{\alpha} \ar[ur]^\bar{\alpha}
+S \ar[r]^{\alpha} \ar[d]_{\nu} & T \\
+S/E_{\alpha} \ar[ur]^\bar{\alpha}
 }
 \end{xy}
 \]</p>
