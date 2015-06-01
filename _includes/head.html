@@ -46,7 +46,7 @@
 
 {% if page.mathjax %}
 <!--Load Mathjax-->
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
 MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
 MathJax.Hub.Config({
     config: ["TeX-AMS-MML_HTMLorMML.js", "MMLorHTML.js"],
@@ -99,6 +99,20 @@ MathJax.Hub.Config({
             all[i].SourceElement().parentNode.className += ' has-jax';
         }
     });
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script> -->
+<script type="text/x-mathjax-config">
+  MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
+  MathJax.Hub.Config({
+    config: ["TeX-AMS-MML_HTMLorMML.js", "MMLorHTML.js"],
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    "HTML-CSS": {
+      styles: {".MathJax_Preview": {visibility: "hidden"}}
+    },
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+    TeX: {extensions: ["[Contrib]/xyjax/xypic.js", "AMSmath.js","AMSsymbols.js"]}
+  });
 </script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 {% endif %}
