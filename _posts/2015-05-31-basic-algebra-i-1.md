@@ -43,7 +43,8 @@ This chapter has two important parts: set theory, natural numbers and intergers,
 In the first part, we introduced the power set of a set, the Cartesian product set, maps and equivalence relations on a set.
 
 **The "dressing-undressing" principle**:
-\\[(\beta\alpha)^{-1} = \alpha^{-1}\beta^{-1}\\]
+
+>\\[(\beta\alpha)^{-1} = \alpha^{-1}\beta^{-1}\\]
 
 We view the *relation* on $S$ as a subset of the product set $S \times S$. The *equivalence relation* is a relation with reflexive, symmetic and transitive properties. The concept of an equivalence relation is equivalent to that of a *partition*, $\pi(S)$, of a set, which is the just the *quotient set*, $S/E$. The we have a *natural map* of the set to the quotient set:
 \begin{align}
@@ -79,19 +80,19 @@ In this case, the induced map $\alpha$ need not to be injective. In fact $\alpha
 
 **The "Pigeonhole" Principle**
 
-If there are more letters than pigonholes, then some pigeonhole must contains more than one letter.
+>If there are more letters than pigonholes, then some pigeonhole must contains more than one letter.
 
 **The Schröder-Bernstein Theorem**
 
-if we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\lvert S \rvert = \lvert T \rvert$.
+>If we have injective maps of $S$ into $T$ and of $T$ to $S$, then $\lvert S \rvert = \lvert T \rvert$.
 
 ## The Natural Number
 
 We begin with a non-vacuous set $\mathbb{n}$, a particular element of $\mathbb{N}$, designated as $0$, a *successor map* $a \to a^{+}$ of $\mathbb{N}$, and **Peano's Axioms**:
 
-1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map).
-2. The successor map is injective.
-3. (*Axiom of induction*) Any subset of $\mathbb{N}$ which contains $0$ and contains the successor of every element in the given subset coincides with $\mathbb{N}$.
+>1. $0 \ne a^{+}$ for any $a$ (i.e. $0$ is not the image of any successor map).
+>2. The successor map is injective.
+>3. (*Axiom of induction*) Any subset of $\mathbb{N}$ which contains $0$ and contains the successor of every element in the given subset coincides with $\mathbb{N}$.
 
 Axiom 3 is the basis of the *first principle of induction*. Then we have *proofs by induction*.
 
@@ -99,17 +100,17 @@ The another we shall encounter frequently is *definitions by induction*, which i
 
 **Recursion Theorem**:
 
-Let $S$ be a set, $\phi$ a map of $S$ into itself, $a$ a element of $S$. Then there exist one and only one map $f$ from $\mathbb{N}$ to $S$ s.t.
-
-1. $f(0) = a$
-2. $f(n^{+}) = \phi(f(n))$, $n \in \mathbb{N}$
+>Let $S$ be a set, $\phi$ a map of $S$ into itself, $a$ a element of $S$. Then there exist one and only one map $f$ from $\mathbb{N}$ to $S$ s.t.
+>
+>1. $f(0) = a$
+>2. $f(n^{+}) = \phi(f(n))$, $n \in \mathbb{N}$
 
 Note that the existence of $f$ must use *all* of the Peano's axioms.
 
 A fundamental concept of the system $\mathbb{N}$ is the relation of *order*. We have the *well-ordering property* of $\mathbb{N}$:
 
-In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number,
-i.e. an $l \in S$ s.t. $l \le s$ for $s \in S$
+>In any non-vacuous subset $S$ of $\mathbb{N}$ there is a least number,
+>i.e. an $l \in S$ s.t. $l \le s$ for $s \in S$
 
 The well-ordering property is the basis of the *second principle of induction*.
 
@@ -119,7 +120,7 @@ We can construct the number system $\mathbb{Z}$ from $\mathbb{N}$ using the meth
 
 **The Fundamental Theorem of Arithmetic[^1]**
 
-Any integer $\ne 0, \pm 1$ can be written as a product of primes. Apart from order and signs of the factors this factorization is unique.
+>Any integer $\ne 0, \pm 1$ can be written as a product of primes. Apart from order and signs of the factors this factorization is unique.
 
 **The Division Algorithm in $\mathbb{Z}$**
 
@@ -127,5 +128,4 @@ Any integer $\ne 0, \pm 1$ can be written as a product of primes. Apart from ord
 
 
 
-[^1]: This is a special case of the *arithemetic of p.i.d.*
-*[p.i.d.]: Principle Ideal Domain
+[^1]: This is a special case of the *arithemetic of principal ideal domains*.
