@@ -47,18 +47,6 @@
 {% if page.mathjax %}
 <!--Load Mathjax-->
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        // Fix <code> tags after MathJax finishes running. This is a
-        // hack to overcome a shortcoming of Markdown. Discussion at
-        // https://github.com/mojombo/jekyll/issues/199
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i = 0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script> -->
-<script type="text/x-mathjax-config">
   MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
   MathJax.Hub.Config({
     config: ["TeX-AMS-MML_HTMLorMML.js", "MMLorHTML.js"],
