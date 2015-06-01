@@ -47,6 +47,7 @@
 {% if page.mathjax %}
 <!--Load Mathjax-->
 <script type="text/x-mathjax-config">
+MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
 MathJax.Hub.Config({
     config: ["TeX-AMS-MML_HTMLorMML.js", "MMLorHTML.js"],
     extensions: ["tex2jax.js"],
@@ -74,7 +75,7 @@ MathJax.Hub.Config({
             },
             useLabelIds: false
         },
-        extensions: ["//einbisschenmath.me/assets/js/XyJax/extensions/TeX/xypic.js", "AMSmath.js", "AMSsymbols.js", "AMScd.js", "autobold.js", "color.js", "noUndefined.js"],
+        extensions: ["[Contrib]/xyjax/xypic.js", "AMSmath.js", "AMSsymbols.js", "AMScd.js", "autobold.js", "color.js", "noUndefined.js"],
         unicode: {
             fonts: "STIXGeneral, 'Arial Unicode MS'"
         }
@@ -98,7 +99,7 @@ MathJax.Hub.Config({
         }
     });
 </script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
 
