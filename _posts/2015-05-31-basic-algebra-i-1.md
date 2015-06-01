@@ -36,7 +36,7 @@ featured: false
 This chapter has two important parts: set theory, natural numbers and intergers, which are the basic ingredients of structures.
 
 <p>
-\\[
+\[
 \begin{xy}
 \xymatrix {
 U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
@@ -44,7 +44,7 @@ U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
  & Y \ar[r]^g & Z
 }
 \end{xy}
-\\]
+\]
 </p>
 
 # Main Content
