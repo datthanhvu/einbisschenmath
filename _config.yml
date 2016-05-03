@@ -29,7 +29,7 @@ owner:
     stackexchange:
     # For Google Authorship https://plus.google.com/authorship
     google_plus:    https://plus.google.com/u/0/100432668086516233389
-    url:            http://wangjiezhe.github.io
+    url:            https://wangjiezhe.github.io
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-48537410-1
@@ -81,8 +81,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://wangjiezhe.github.io/einbisschenmath/'
-  relativeLinks: 'http://wangjiezhe.github.io/einbisschenmath/links.jsonp'
+  siteurl: 'https://wangjiezhe.github.io/einbisschenmath/'
+  relativeLinks: 'https://wangjiezhe.github.io/einbisschenmath/links.jsonp'
   media: 'images'
   metadata:
     _posts:
